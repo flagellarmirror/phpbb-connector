@@ -8,8 +8,8 @@ use Slim\Routing\RouteCollectorProxy;
 
 require '../vendor/autoload.php';
 
-// $dotenv = Dotenv\Dotenv::createImmutable("../");
-// $dotenv->load();
+$dotenv = Dotenv\Dotenv::createImmutable("../");
+$dotenv->load();
 
 
 // Registering config parameters
