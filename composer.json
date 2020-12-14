@@ -1,0 +1,40 @@
+{
+    "name": "flagellarmirror/phpbb-connector",
+    "description": "PhpBB connector",
+    "type": "project",
+    "keywords": [
+        "Slim4", "Api", "JWT", "Router", "phpBB"
+    ],
+    "homepage": "https://github.com/lucatacconi/phpbb-connector/tree/master",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emanuele Marchesotti",
+            "homepage": "https://github.com/flagellarmirror",
+            "role": "Developer"
+        },
+        {
+            "name": "Luca Tacconi",
+            "email": "luca.tacconi@monolite.net",
+            "homepage": "http://www.monolite.net",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "slim/slim": "^4",
+        "slim/psr7": "^1",
+        "nyholm/psr7": "^1",
+        "nyholm/psr7-server": "^0",
+        "guzzlehttp/psr7": "^1",
+        "http-interop/http-factory-guzzle": "^1",
+        "laminas/laminas-diactoros": "^2",
+        "php-di/php-di": "^6",
+
+        "monolog/monolog": "^2",
+        "tuupola/base62": "^2",
+        "tuupola/slim-jwt-auth": "^3",
+        "tuupola/slim-basic-auth": "^3",
+        "vlucas/phpdotenv": "^5"
+    }
+}
